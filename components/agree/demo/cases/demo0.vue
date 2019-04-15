@@ -11,7 +11,8 @@
   </div>
 </template>
 
-<script>import {Agree} from 'mand-mobile'
+<script>
+import {Agree} from 'mand-mobile'
 
 export default {
   name: 'agree-demo',
@@ -28,7 +29,7 @@ export default {
       agreeConf: {
         checked: true,
         name: 'agree0',
-        size: 'md',
+        size: 'lg',
         disabled: false,
         introduction: '选中状态',
       },
@@ -40,4 +41,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
